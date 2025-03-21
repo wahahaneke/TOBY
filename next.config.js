@@ -12,7 +12,11 @@ const nextConfig = {
         hostname: "img1.wsimg.com",
       },
     ],
-  }
+  },
+  output: 'export',
+  // GitHub Pages的基本路径配置
+  basePath: '/TOBY',
+  assetPrefix: '/TOBY',
 };
 
 export default nextConfig;
